@@ -1,6 +1,5 @@
 # tensorflow tutorial
 
-
 ### How to install in ubuntu
 ```
 $ sudo apt-get update
@@ -47,3 +46,19 @@ $ source ~/tensorflow/bin/activate
 jupyter notebook --ip=* --no-browser
 tensorboard --logdir=/tmp/example
 ```
+
+
+### How to check tensorflow version
+```
+pip3 list | grep tensorflow
+```
+
+### How to upgrade tensorflow version
+```
+(tensorflow)$ export TF_BINARY_URL=https://storage.googleapis.com/tensorflow/linux/cpu/tensorflow-0.12.0rc0-cp27-none-linux_x86_64.whl
+(tensorflow)$ sudo pip install --upgrade $TF_BINARY_URL
+
+```
+
+### tensorflow version list
+- [tensorflow tags](https://github.com/tensorflow/tensorflow/tags)
